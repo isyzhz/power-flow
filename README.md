@@ -1,7 +1,5 @@
 # Power Flow
 
-This repository contains the implementation of power flow analysis for various systems, including 2-bus, 33-bus, 69-bus, and 118-bus networks. It also provides multiple custom power flow algorithms used in the accompanying research paper.
-
 ## Folder Structure
 
 - **data**: This folder includes the test case data for different systems used in the paper. The available systems are:
