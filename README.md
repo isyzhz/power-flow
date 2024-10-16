@@ -27,7 +27,7 @@ To run the power flow analysis, follow these steps:
    ```matlab
    mpopt = mpoption('pf.alg','algorithm'); 
    results = runpf('casedata', mpopt);
-3. Replace `'algorithm'` with the desired algorithm name (e.g., `'NB'`, `'CJ'`, etc.) and `'casedata'` with the desired case file (e.g., `'case2'`, `'case33'`, `'case69'`, or `'case118'`).
+3. Replace `'algorithm'` with the desired algorithm name (e.g., `'NB'`, `'CJ'`, etc.) and `'casedata'` with the desired case file (e.g., `'case2'`, `'case33bw'`, `'case69'`, or `'case118zh'`).
 
     **Example**:
     ```matlab
